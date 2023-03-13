@@ -19,7 +19,7 @@
 
   <!-- Rating state start -->
     <div class="main">
-     <div class="card_rating">
+     <div id="card_rating">
 
        <img src="images\icon-star.svg" alt="star" class="rate_img">
 
@@ -44,21 +44,28 @@
      <!-- Rating state end -->
 
 
-     <!-- Thank you state start -->
-     <div class="selected_card_hidden">
+     <!-- Thank you state starts here -->
+     <div id="selected_card_hidden" class="hidden">
 
-       <img src="images\illustration-thank-you.svg" alt="Thank you illustration">
-
+      <div class="second_card">
+        <img src="images\illustration-thank-you.svg" alt="Thank you illustration">
+      </div>
+      <div class="second_card">
        <p class="rated">
-         You selected <span class="rate"></span> out of 5
+         You selected <span id="rate"></span> out of 5
        </p>
+      </div>
 
+       <div class="second_card">
        <h2 class="heading">Thank you!</h2>
+       </div>
 
+       <div class="second_card">
        <p class="text">
           We appreciate you taking the time to give a rating. If you ever need more support,
           don’t hesitate to get in touch!
        </p>
+       </div>
 
       </div>
    </div>
